@@ -1,0 +1,35 @@
+{
+  "name": "update-gitignore",
+  "description": "Update a .gitignore file with default patterns.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/update-gitignore",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/update-gitignore.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/update-gitignore/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/update-gitignore/blob/master/LICENSE"
+  },
+  "files": ["index.js"],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}
