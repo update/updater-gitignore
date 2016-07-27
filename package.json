@@ -1,24 +1,20 @@
 {
-  "name": "update-gitignore",
+  "name": "updater-gitignore",
   "description": "Update a .gitignore file with default patterns.",
   "version": "0.1.0",
-  "homepage": "https://github.com/jonschlinkert/update-gitignore",
-  "author": {
-    "name": "Jon Schlinkert",
-    "url": "https://github.com/jonschlinkert"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/jonschlinkert/update-gitignore.git"
-  },
+  "homepage": "https://github.com/update/updater-gitignore",
+  "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
+  "repository": "update/updater-gitignore",
   "bugs": {
-    "url": "https://github.com/jonschlinkert/update-gitignore/issues"
+    "url": "https://github.com/update/updater-gitignore/issues"
   },
-  "license": {
-    "type": "MIT",
-    "url": "https://github.com/jonschlinkert/update-gitignore/blob/master/LICENSE"
-  },
-  "files": ["index.js"],
+  "license": "MIT",
+  "files": [
+    "index.js",
+    "LICENSE",
+    "templates",
+    "updatefile.js"
+  ],
   "main": "index.js",
   "engines": {
     "node": ">=0.10.0"
@@ -26,10 +22,31 @@
   "scripts": {
     "test": "mocha"
   },
-  "dependencies": {},
-  "devDependencies": {
-    "mocha": "*",
-    "should": "*"
+  "dependencies": {
+    "base-fs-conflicts": "^0.1.7",
+    "generate-gitignore": "^0.1.2",
+    "is-valid-app": "^0.2.0"
   },
-  "keywords": []
+  "devDependencies": {
+    "copy": "^0.3.0",
+    "delete": "^0.3.2",
+    "mocha": "^2.5.3",
+    "npm-install-global": "^0.1.2",
+    "update": "^0.7.3"
+  },
+  "keywords": [
+    "fix",
+    "gitignore",
+    "lint",
+    "linter",
+    "maintain",
+    "plugin",
+    "plugins",
+    "up-to-date",
+    "update",
+    "update-plugin",
+    "update-updater",
+    "updater",
+    "updaterplugin"
+  ]
 }
