@@ -12,6 +12,7 @@
   "files": [
     "index.js",
     "LICENSE",
+    "README.md",
     "templates",
     "updatefile.js"
   ],
@@ -61,9 +62,9 @@
     ],
     "related": {
       "list": [
+        "generate",
         "updater-license",
-        "updater-travis",
-        "generate"
+        "updater-travis"
       ]
     },
     "lint": {
