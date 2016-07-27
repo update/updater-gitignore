@@ -30,6 +30,7 @@
   "devDependencies": {
     "copy": "^0.3.0",
     "delete": "^0.3.2",
+    "gulp-format-md": "^0.1.9",
     "mocha": "^2.5.3",
     "npm-install-global": "^0.1.2",
     "update": "^0.7.3"
@@ -48,5 +49,25 @@
     "update-updater",
     "updater",
     "updaterplugin"
-  ]
+  ],
+  "verb": {
+    "toc": false,
+    "layout": "updater",
+    "tasks": [
+      "readme"
+    ],
+    "plugins": [
+      "gulp-format-md"
+    ],
+    "related": {
+      "list": [
+        "updater-license",
+        "updater-travis",
+        "generate"
+      ]
+    },
+    "lint": {
+      "reflinks": true
+    }
+  }
 }
